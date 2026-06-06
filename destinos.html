@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ruta Maya - Turismo en Honduras</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet" >
+	
+	
+</head>
+
+<body>
+	
+	<header>
+		
+	<div class="container-fluid">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo ruta maya-01.png" alt="logotipo ruta maya" class="img-fluid">
+        </a>
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar"
+                aria-controls="navbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+		
+
+        <div class="collapse navbar-collapse" id="navbar">
+    		<ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link active" href="destinos.html">Destinos</a>
+        </li>
+				
+		  <li class="nav-item">
+            <a class="nav-link" href="Experiencias.html">Experiencias</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+        </li>
+
+    	</ul>
+				
+			 <ul class="navbar-nav ms-auto">
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="">F</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">I</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Y</a>
+                </li>
+            </ul>
+			
+				
+
+        </div>
+		
+		</nav>
+		
+	</div>
+		
+</header>
+	
+	<section class="hero-destinos text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8 col-md-10">
+                    <h1 class="display-3 fw-bold mb-4">Nuestros Destinos</h1>
+                    <p class="lead fs-4">Explora los mejores lugares que Honduras tiene para ti</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="py-4  border-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex flex-wrap justify-content-center gap-2" id="filtros">
+                        <button class="btn btn-success-success" data-filter="all">Todos</button>
+                        <button class="btn btn-outline-success" data-filter="playa">Playa</button>
+                        <button class="btn btn-outline-success" data-filter="montana">Montañas</button>
+                        <button class="btn btn-outline-success" data-filter="cultura">Cultura</button>
+                        <button class="btn btn-outline-success" data-filter="ciudad">Ciudades</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4" id="destinos-grid">
+
+              
+                <div class="col-12 col-sm-6 col-lg-4 destino-card" data-category="playa">
+                    <div class="card h-100 border-0 shadow">
+                        <img src="img/roatan-vista.jpg" class="card-img-top" alt="Roatán">
+                        <div class="card-body">
+                            <h5 class="card-title">Roatán</h5>
+                            <p class="text-muted">Islas de la Bahía</p>
+                            <p class="small">Aguas cristalinas y arrecifes de coral.</p>
+                        </div>
+                    </div>
+                </div>
+             
+                <div class="col-12 col-sm-6 col-lg-4 destino-card" data-category="cultura">
+                    <div class="card h-100 border-0 shadow">
+                        <img src="img/copan-ruinas.jpg" class="card-img-top" alt="Copán Ruinas">
+                        <div class="card-body">
+                            <h5 class="card-title">Copán Ruinas</h5>
+                            <p class="text-muted">Copán</p>
+                            <p class="small">Patrimonio de la Humanidad UNESCO.</p>
+                        </div>
+                    </div>
+                </div>
+				
+                <div class="col-12 col-sm-6 col-lg-4 destino-card" data-category="playa">
+                    <div class="card h-100 border-0 shadow">
+                        <img src="img/la-ceiba.jpg" class="card-img-top" alt="La Ceiba">
+                        <div class="card-body">
+                            <h5 class="card-title">La Ceiba</h5>
+                            <p class="text-muted">Atlántida</p>
+                            <p class="small">Puerta de entrada a las islas.</p>
+                        </div>
+                    </div>
+                </div>
+           
+                <div class="col-12 col-sm-6 col-lg-4 destino-card" data-category="montana">
+                    <div class="card h-100 border-0 shadow">
+                        <img src="img/gracias-lempira.jpg" class="card-img-top" alt="Gracias">
+                        <div class="card-body">
+                            <h5 class="card-title">Gracias</h5>
+                            <p class="text-muted">Lempira</p>
+                            <p class="small">Pueblos coloniales y montañas.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-sm-6 col-lg-4 destino-card" data-category="playa">
+                    <div class="card h-100 border-0 shadow">
+                        <img src="img/tela-visita.jpeg" class="card-img-top" alt="Tela">
+                        <div class="card-body">
+                            <h5 class="card-title">Tela</h5>
+                            <p class="text-muted">Atlántida</p>
+                            <p class="small">Playas y parques nacionales.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4 destino-card" data-category="montana">
+                    <div class="card h-100 border-0 shadow">
+                        <img src="img/santa-lucia.jpg" class="card-img-top" alt="Santa Lucía">
+                        <div class="card-body">
+                            <h5 class="card-title">Santa Lucía</h5>
+                            <p class="text-muted">Francisco Morazán</p>
+                            <p class="small">Pueblo colonial con vista espectacular.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <a href="#" class="btn btn-success btn-lg px-5">Cargar más destinos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+	
+</body>
+</html>
